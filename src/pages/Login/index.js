@@ -10,26 +10,11 @@ export default function Login() {
   };
 
   return (
-    <div id="lan-main-div">
+    <div id="login-main-div">
+      <div id="login-header"></div>
       <h2>Seja Bem-Vindo(a)!</h2>
-      <div clasName="login-input-div"></div>
-      <div clasName="login-input-div"></div>
-      <div id="lan-buttons-div">
-        <div
-          onClick={() => history.push("/provider")}
-          className="lan-direction-button"
-          id="lan-provider-button"
-        >
-          <span className="lan-button-label">Quero doar</span>
-        </div>
-        <div
-          onClick={() => handleReceiverPage()}
-          className="lan-direction-button"
-          id="lan-receiver-button"
-        >
-          <span className="lan-button-label">Preciso receber</span>
-        </div>
-      </div>
+      <div className="login-input-div"></div>
+      <div className="login-input-div"></div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function Initial() {
   const history = useHistory();
 
   const handlePush = () => {
-    history.push("/landing");
+    history.push("/login");
   };
 
   return (
