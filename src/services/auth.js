@@ -1,9 +1,9 @@
 import axios from "axios";
 
-import * as keys from "../constants/asyncstorageKeys";
+import * as keys from "../constants/localstorageKeys";
 import * as actionTypes from "../redux/actions/actions";
 
-const baseUri = "https://appmerenda.herokuapp.com/auth/token/login";
+const baseUri = "https://appmerenda.herokuapp.com/";
 const refreshUri = "";
 
 const app_id = "";
@@ -12,7 +12,7 @@ const client_secret = "";
 export function handleLogin({ email, password, keepConnected, dispatch }) {
   dispatch({ type: actionTypes.LOGIN_REQUEST, payload: { loading: true } });
   axios
-    .post(`${baseUri}/auth/`, {
+    .post(`${baseUri}auth/token/login/`, {
       email: email,
       password: password,
     })
@@ -20,7 +20,7 @@ export function handleLogin({ email, password, keepConnected, dispatch }) {
       dispatch({
         type: actionTypes.LOGIN_SUCCESS,
         payload: {
-          access_token: response.data.access_token,
+          access_token: response.data.auth_token,
           refresh_token: keepConnected ? response.data.refresh_token : null,
           loading: false,
         },
