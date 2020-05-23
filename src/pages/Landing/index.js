@@ -3,6 +3,8 @@ import { useHistory } from "react-router-dom";
 import "./Landing.css";
 
 export default function Landing() {
+  const history = useHistory();
+
   const handleReceiverPage = () => {
     history.push("/receiverPage");
   };
