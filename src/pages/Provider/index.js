@@ -24,27 +24,7 @@ export default function Provider() {
           </div>
           <span className="prov-info-icon"></span>
         </div>
-        <div className="prov-foodinfo-div">
-          <div className="prov-foodinfo-div-grouping-1">
-            <span className="prov-isbusy-icon"></span>
-            <span>Merenda 2</span>
-          </div>
-          <span className="prov-info-icon"></span>
-        </div>
-        <div className="prov-foodinfo-div">
-          <div className="prov-foodinfo-div-grouping-1">
-            <span className="prov-isbusy-icon"></span>
-            <span>Merenda 3</span>
-          </div>
-          <span className="prov-info-icon"></span>
-        </div>
-        <div className="prov-foodinfo-div">
-          <div className="prov-foodinfo-div-grouping-1">
-            <span className="prov-isbusy-icon"></span>
-            <span>Merenda 4</span>
-          </div>
-          <span className="prov-info-icon"></span>
-        </div>
+
         <div></div>
       </div>
     </div>
