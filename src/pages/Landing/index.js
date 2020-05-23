@@ -6,7 +6,7 @@ export default function Landing() {
   const history = useHistory();
 
   const handleReceiverPage = () => {
-    history.push("/receiverPage");
+    history.push("/receiver");
   };
 
   return (
@@ -22,7 +22,11 @@ export default function Landing() {
         <div className="lan-direction-button" id="lan-provider-button">
           <span className="lan-button-label">Quero doar</span>
         </div>
-        <div className="lan-direction-button" id="lan-receiver-button">
+        <div
+          onClick={() => handleReceiverPage()}
+          className="lan-direction-button"
+          id="lan-receiver-button"
+        >
           <span className="lan-button-label">Preciso receber</span>
         </div>
       </div>
