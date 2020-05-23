@@ -5,10 +5,6 @@ import "./Landing.css";
 export default function Landing() {
   const history = useHistory();
 
-  const handleReceiverPage = () => {
-    history.push("/receiver");
-  };
-
   return (
     <div id="lan-main-div">
       <h2>Seja Bem-Vindo(a)!</h2>
@@ -27,7 +23,9 @@ export default function Landing() {
           <span className="lan-button-label">Quero doar</span>
         </div>
         <div
-          onClick={() => handleReceiverPage()}
+          onClick={() => {
+            history.push("/ImagesInput");
+          }}
           className="lan-direction-button"
           id="lan-receiver-button"
         >

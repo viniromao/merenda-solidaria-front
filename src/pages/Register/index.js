@@ -5,7 +5,7 @@ import "./Register.css";
 export default function Register() {
   const history = useHistory();
   const loginHandle = () => {
-    history.push("/receiver");
+    history.push("/landing");
   };
   return (
     <div id="reg-main-div">

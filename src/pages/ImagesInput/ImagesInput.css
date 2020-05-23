@@ -1,0 +1,14 @@
+
+.img-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    color:grey;
+    border-radius: 3px;
+    width:80%;
+    height: 5vh;
+    padding-left:3vw;
+   
+}

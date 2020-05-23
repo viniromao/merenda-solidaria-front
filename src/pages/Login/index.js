@@ -45,7 +45,8 @@ export default function Login() {
           FAZER LOGIN
         </button>
         <span id="login-bottom-div-register-span">
-          Não possui uma conta?<span>Cadastre-se</span>
+          Não possui uma conta?
+          <span onClick={() => history.push("/register")}>Cadastre-se</span>
         </span>
       </div>
     </div>
