@@ -1,0 +1,37 @@
+#ini-main-div{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:  url(../../presets/images/backgroundMain.png) no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+
+#ini-next-button{
+    position: absolute;
+    bottom:5vh;
+    right:5vh;
+    width:10vh;
+    height: 10vh;
+    background:  url(../../presets/icons/proximo.svg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+    animation-name: button-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes button-animation {
+    0% {transform: translate(0px, 0vh)}
+    50% {transform: translate(2vh, 0vh)}
+    100% {transform: translate(0px, 0vh)}
+}
