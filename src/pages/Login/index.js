@@ -1,8 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import "./Landing.css";
+import "./Login.css";
 
-export default function Landing() {
+export default function Login() {
   const history = useHistory();
 
   const handleReceiverPage = () => {
@@ -12,12 +12,8 @@ export default function Landing() {
   return (
     <div id="lan-main-div">
       <h2>Seja Bem-Vindo(a)!</h2>
-      <span id="lan-info-span">
-        <b>Vamos começar? </b>clique em um dos botões para prosseguir com o
-        cadastro, seja você responsável por uma criança matriculada na rede
-        pública de educação do estado Rio de Janeiro ou se você quer ofereçer
-        uma alimentação saudável voluntariamente para aqueles que precisam.
-      </span>
+      <div clasName="login-input-div"></div>
+      <div clasName="login-input-div"></div>
       <div id="lan-buttons-div">
         <div
           onClick={() => history.push("/provider")}
