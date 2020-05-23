@@ -5,16 +5,24 @@ import "./Login.css";
 export default function Login() {
   const history = useHistory();
 
-  const handleReceiverPage = () => {
+  const loginHandle = () => {
     history.push("/receiver");
   };
 
   return (
     <div id="login-main-div">
       <div id="login-header"></div>
-      <h2>Seja Bem-Vindo(a)!</h2>
-      <div className="login-input-div"></div>
-      <div className="login-input-div"></div>
+      <h3>Entre ou registre-se</h3>
+      <input placeholder="Email" className="login-input-div"></input>
+      <input placeholder="Senha" className="login-input-div"></input>
+      <div id="login-bottom-div">
+        <div onClick={() => loginHandle()} id="login-bottom-div-buttom">
+          FAZER LOGIN
+        </div>
+        <span id="login-bottom-div-register-span">
+          Não possui uma conta?<span>Cadastre-se</span>
+        </span>
+      </div>
     </div>
   );
 }
