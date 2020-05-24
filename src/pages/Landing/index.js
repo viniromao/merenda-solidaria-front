@@ -56,7 +56,7 @@ export default function Landing() {
               type: actionTypes.REGISTER_REQUEST,
               payload: { quero_doar: false },
             });
-            history.push("/provider");
+            history.push("/login");
           }}
           className="lan-direction-button"
           id="lan-receiver-button"
