@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
  
-  "homepage": "https://viniromao.github.io/merenda-solidaria-front/",
+  "homepage": "http://merenda-solidaria-deploy.herokuapp.com/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
