@@ -5,17 +5,21 @@ import "./Receiver.css";
 export default function Receiver() {
   return (
     <div id="rec-main-div">
-      <h2>Seja Bem-Vindo(a)!</h2>
-      <span id="rec-info-span">
-        <b>Vamos começar? </b>TESTE
-      </span>
-      <div id="rec-buttons-div">
-        <div className="rec-direction-button" id="rec-provider-button">
-          <span className="rec-button-label">Quero doar</span>
+      <div id="rec-profile-div">
+        <span id="rec-profile-picture"></span>
+        <span>João Felipe da Silva</span>
+      </div>
+      <div id="rec-bottom-div">
+        <span id="prov-bottom-div-title">Merendas solicitadas (2)</span>
+        <div className="prov-foodinfo-div">
+          <div className="prov-foodinfo-div-grouping-1">
+            <span className="prov-isbusy-icon"></span>
+            <span>Cesta Básica</span>
+          </div>
+          <span className="rec-plusicon-span"></span>
         </div>
-        <div className="rec-direction-button" id="rec-receiver-button">
-          <span className="rec-button-label">Preciso receber</span>
-        </div>
+
+        <div></div>
       </div>
     </div>
   );

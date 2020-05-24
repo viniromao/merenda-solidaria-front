@@ -6,7 +6,7 @@ export default function FoodInfo() {
   const history = useHistory();
 
   const handlePush = () => {
-    history.push("/receiver");
+    history.push("/provider");
   };
 
   return (

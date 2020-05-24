@@ -22,7 +22,7 @@ export default function Login() {
   return (
     <div id="login-main-div">
       <div id="login-header"></div>
-      <h3>Entre ou registre-se</h3>
+      <h3> </h3>
       <input
         placeholder="Email"
         className="login-input-div"
@@ -30,6 +30,7 @@ export default function Login() {
         onChange={(e) => setEmail(e.target.value)}
       ></input>
       <input
+        type="password"
         placeholder="Senha"
         className="login-input-div"
         value={password}
@@ -46,7 +47,10 @@ export default function Login() {
         </button>
         <span id="login-bottom-div-register-span">
           Não possui uma conta?
-          <span onClick={() => history.push("/register")}>Cadastre-se</span>
+          <span onClick={() => history.push("/register")}>
+            {" "}
+            <b>Cadastre-se</b>
+          </span>
         </span>
       </div>
     </div>

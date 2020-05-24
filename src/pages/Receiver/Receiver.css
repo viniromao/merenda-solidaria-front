@@ -9,7 +9,7 @@
         justify-content: space-evenly;
         min-height: 100vh;
         min-width: 100vw;
-        background-color: #97C3E7;
+        background-color: #999a9b;
     }
     
     #rec-info-span{
@@ -60,6 +60,46 @@
         padding-top: 23vh;
         font-size: 4vw;
         width:200%;
+    }
+
+    #rec-profile-picture {
+        background: url("../../presets/icons/jovem.png") no-repeat;
+        background-position: center;
+        background-size: 50%;
+        width: 40%;
+        height: 40%;
+        margin-bottom: 2vh;
+        border-radius: 100px;
+        box-shadow: 2px 2px 5px grey;
+        background-color: white;
+      }
+
+
+    #rec-profile-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        width: 100%;
+        background-color: #999a9b;
+        color: black;
+        font-size: 4vw;
+    }
+
+    #rec-bottom-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 60vh;
+        width: 100%;
+        background-color: #6693b5;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .rec-plusicon-span{
+        
     }
   }
 
