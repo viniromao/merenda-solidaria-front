@@ -54,7 +54,7 @@ export function handleRegister({
   console.log(re_password);
   console.log(endereco);
   console.log(quero_doar);
-  axios.post(`${baseUri}auth/users`).then((response) => {
+  axios.post(`${baseUri}auth/users/`).then((response) => {
     console.log(response.data);
     dispatch({
       type: actionTypes.LOGIN_SUCCESS,
