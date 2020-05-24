@@ -18,25 +18,8 @@ export default function ImagesInput() {
     return state.auth;
   });
 
-  const handleSubmit = () => {
-    handleRegister({
-      email: data.email,
-      first_name: data.first_name,
-      last_name: data.last_name,
-      tel: data.tel,
-      password: data.password,
-      re_password: data.re_password,
-      endereco: data.endereco,
-      quero_doar: data.quero_doar,
-      foto_frente,
-      foto_rosto,
-      foto_tras,
-      dispatch,
-    });
-  };
-
   useEffect(() => {
-    Object.values(loginData)[0].access_token && history.push("/receiver");
+    Object.values(loginData)[0].access_token && history.push("/provider");
   }, [history, loginData]);
 
   return (
@@ -69,7 +52,25 @@ export default function ImagesInput() {
         value={foto_tras}
         onChange={(e) => setFoto_tras(e.target.value)}
       ></input>
-      <button onClick={() => handleSubmit()} id="reg-bottom-div-buttom">
+      <button
+        onClick={() =>
+          handleRegister({
+            email: data.email,
+            first_name: data.first_name,
+            last_name: data.last_name,
+            tel: data.tel,
+            password: data.password,
+            re_password: data.re_password,
+            endereco: data.endereco,
+            quero_doar: false,
+            foto_frente,
+            foto_rosto,
+            foto_tras,
+            dispatch,
+          })
+        }
+        id="reg-bottom-div-buttom"
+      >
         CONTINUAR
       </button>
     </div>
