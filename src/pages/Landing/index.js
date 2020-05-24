@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useHistory } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 import "./Landing.css";
+import * as actionTypes from "../../redux/actions/actions";
+import { handleRegister } from "../../services/auth";
 
 export default function Landing() {
+  const dispatch = useDispatch();
   const history = useHistory();
+
+  const { data } = useSelector((state) => {
+    return state.register;
+  });
+
+  const loginData = useSelector((state) => {
+    return state.register;
+  });
+
+  useEffect(() => {
+    Object.values(loginData)[0].access_token && history.push("/ImagesInput");
+  }, [history, loginData]);
 
   return (
     <div id="lan-main-div">
@@ -16,7 +32,19 @@ export default function Landing() {
       </span>
       <div id="lan-buttons-div">
         <div
-          onClick={() => history.push("/provider")}
+          onClick={() => {
+            handleRegister({
+              email: data.email,
+              first_name: data.first_name,
+              last_name: data.last_name,
+              tel: data.tel,
+              password: data.password,
+              re_password: data.re_password,
+              endereco: data.endereco,
+              quero_doar: true,
+              dispatch,
+            });
+          }}
           className="lan-direction-button"
           id="lan-provider-button"
         >
@@ -24,7 +52,11 @@ export default function Landing() {
         </div>
         <div
           onClick={() => {
-            history.push("/ImagesInput");
+            dispatch({
+              type: actionTypes.REGISTER_REQUEST,
+              payload: { quero_doar: false },
+            });
+            history.push("/provider");
           }}
           className="lan-direction-button"
           id="lan-receiver-button"
