@@ -10,7 +10,7 @@ import ImagesInput from "./pages/ImagesInput";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const Routes = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Switch>
       <Route exact path="/" component={() => <Initial />} />
       <Route path="/login" component={() => <Login />} />
