@@ -14,10 +14,11 @@ export default function Landing() {
   });
 
   const loginData = useSelector((state) => {
-    return state.register;
+    return state.auth;
   });
 
   useEffect(() => {
+    console.log(Object.values(loginData)[0].access_token);
     Object.values(loginData)[0].access_token && history.push("/ImagesInput");
   }, [history, loginData]);
 
@@ -42,6 +43,9 @@ export default function Landing() {
               re_password: data.re_password,
               endereco: data.endereco,
               quero_doar: true,
+              foto_frente: null,
+              foto_rosto: null,
+              foto_tras: null,
               dispatch,
             });
           }}
