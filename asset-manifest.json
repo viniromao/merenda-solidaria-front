@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/merenda-solidaria-front/static/css/main.25cc87a4.chunk.css",
-    "main.js": "/merenda-solidaria-front/static/js/main.d70d4c4c.chunk.js",
-    "main.js.map": "/merenda-solidaria-front/static/js/main.d70d4c4c.chunk.js.map",
-    "runtime-main.js": "/merenda-solidaria-front/static/js/runtime-main.e75b617f.js",
-    "runtime-main.js.map": "/merenda-solidaria-front/static/js/runtime-main.e75b617f.js.map",
-    "static/js/2.59a64111.chunk.js": "/merenda-solidaria-front/static/js/2.59a64111.chunk.js",
-    "static/js/2.59a64111.chunk.js.map": "/merenda-solidaria-front/static/js/2.59a64111.chunk.js.map",
-    "index.html": "/merenda-solidaria-front/index.html",
-    "precache-manifest.1f422804a35f503914d275a0b44f796c.js": "/merenda-solidaria-front/precache-manifest.1f422804a35f503914d275a0b44f796c.js",
-    "service-worker.js": "/merenda-solidaria-front/service-worker.js",
-    "static/css/main.25cc87a4.chunk.css.map": "/merenda-solidaria-front/static/css/main.25cc87a4.chunk.css.map",
-    "static/js/2.59a64111.chunk.js.LICENSE.txt": "/merenda-solidaria-front/static/js/2.59a64111.chunk.js.LICENSE.txt",
-    "static/media/Initial.css": "/merenda-solidaria-front/static/media/proximo.e3b0a3b8.svg",
-    "static/media/Receiver.css": "/merenda-solidaria-front/static/media/comer.c6c3a4ce.svg",
-    "static/media/Provider.css": "/merenda-solidaria-front/static/media/profile image.47bd248c.png"
+    "main.css": "/viniromao/merenda-solidaria-front.git/static/css/main.c468627a.chunk.css",
+    "main.js": "/viniromao/merenda-solidaria-front.git/static/js/main.1820d18b.chunk.js",
+    "main.js.map": "/viniromao/merenda-solidaria-front.git/static/js/main.1820d18b.chunk.js.map",
+    "runtime-main.js": "/viniromao/merenda-solidaria-front.git/static/js/runtime-main.1a8ee9d6.js",
+    "runtime-main.js.map": "/viniromao/merenda-solidaria-front.git/static/js/runtime-main.1a8ee9d6.js.map",
+    "static/js/2.8c596d5e.chunk.js": "/viniromao/merenda-solidaria-front.git/static/js/2.8c596d5e.chunk.js",
+    "static/js/2.8c596d5e.chunk.js.map": "/viniromao/merenda-solidaria-front.git/static/js/2.8c596d5e.chunk.js.map",
+    "index.html": "/viniromao/merenda-solidaria-front.git/index.html",
+    "precache-manifest.33e7dc55f4d7e9480fe7213f2bff4444.js": "/viniromao/merenda-solidaria-front.git/precache-manifest.33e7dc55f4d7e9480fe7213f2bff4444.js",
+    "service-worker.js": "/viniromao/merenda-solidaria-front.git/service-worker.js",
+    "static/css/main.c468627a.chunk.css.map": "/viniromao/merenda-solidaria-front.git/static/css/main.c468627a.chunk.css.map",
+    "static/js/2.8c596d5e.chunk.js.LICENSE.txt": "/viniromao/merenda-solidaria-front.git/static/js/2.8c596d5e.chunk.js.LICENSE.txt",
+    "static/media/Initial.css": "/viniromao/merenda-solidaria-front.git/static/media/proximo.e3b0a3b8.svg",
+    "static/media/Receiver.css": "/viniromao/merenda-solidaria-front.git/static/media/comer.c6c3a4ce.svg",
+    "static/media/Provider.css": "/viniromao/merenda-solidaria-front.git/static/media/profile image.47bd248c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e75b617f.js",
-    "static/js/2.59a64111.chunk.js",
-    "static/css/main.25cc87a4.chunk.css",
-    "static/js/main.d70d4c4c.chunk.js"
+    "static/js/runtime-main.1a8ee9d6.js",
+    "static/js/2.8c596d5e.chunk.js",
+    "static/css/main.c468627a.chunk.css",
+    "static/js/main.1820d18b.chunk.js"
   ]
 }
