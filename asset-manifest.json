@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/merenda-solidaria-front/static/css/main.9b39ef1e.chunk.css",
-    "main.js": "/merenda-solidaria-front/static/js/main.30bc343f.chunk.js",
-    "main.js.map": "/merenda-solidaria-front/static/js/main.30bc343f.chunk.js.map",
+    "main.js": "/merenda-solidaria-front/static/js/main.9d3668e5.chunk.js",
+    "main.js.map": "/merenda-solidaria-front/static/js/main.9d3668e5.chunk.js.map",
     "runtime-main.js": "/merenda-solidaria-front/static/js/runtime-main.e75b617f.js",
     "runtime-main.js.map": "/merenda-solidaria-front/static/js/runtime-main.e75b617f.js.map",
     "static/js/2.8c596d5e.chunk.js": "/merenda-solidaria-front/static/js/2.8c596d5e.chunk.js",
     "static/js/2.8c596d5e.chunk.js.map": "/merenda-solidaria-front/static/js/2.8c596d5e.chunk.js.map",
     "index.html": "/merenda-solidaria-front/index.html",
-    "precache-manifest.c1564912f83457f2fcdd381ef06f1455.js": "/merenda-solidaria-front/precache-manifest.c1564912f83457f2fcdd381ef06f1455.js",
+    "precache-manifest.5f3261c7b4c97e22829289f121f4bbc5.js": "/merenda-solidaria-front/precache-manifest.5f3261c7b4c97e22829289f121f4bbc5.js",
     "service-worker.js": "/merenda-solidaria-front/service-worker.js",
     "static/css/main.9b39ef1e.chunk.css.map": "/merenda-solidaria-front/static/css/main.9b39ef1e.chunk.css.map",
     "static/js/2.8c596d5e.chunk.js.LICENSE.txt": "/merenda-solidaria-front/static/js/2.8c596d5e.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.e75b617f.js",
     "static/js/2.8c596d5e.chunk.js",
     "static/css/main.9b39ef1e.chunk.css",
-    "static/js/main.30bc343f.chunk.js"
+    "static/js/main.9d3668e5.chunk.js"
   ]
 }
