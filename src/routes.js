@@ -6,6 +6,7 @@ import Provider from "./pages/Provider";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ImagesInput from "./pages/ImagesInput";
+import FoodInfo from "./pages/FoodInfo";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -13,6 +14,7 @@ const Routes = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={() => <Initial />} />
+      <Route path="/foodinfo" component={() => <FoodInfo />} />
       <Route path="/login" component={() => <Login />} />
       <Route path="/register" component={() => <Register />} />
       <Route path="/landing" component={() => <Landing />} />
