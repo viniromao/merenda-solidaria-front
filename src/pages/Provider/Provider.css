@@ -1,115 +1,112 @@
-@media all and (min-width:0px) and (max-width: 450px) {
-    #prov-main-div{
-        color: white;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        min-height: 100vh;
-        min-width: 100vw;
-        background-color: white;
-    }
+@media all and (min-width: 0px) and (max-width: 450px) {
+  #prov-main-div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: white;
+  }
 
-    #prov-side-menu-button{
-        background: url('../../presets/icons/menu.png') no-repeat;
-        background-position: center;
-        background-size: 100%;
-        width:5vh;
-        height: 5vh;
-        cursor:pointer;
-    }
+  #prov-side-menu-button {
+    background: url("../../presets/icons/menu.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 5vh;
+    height: 5vh;
+    cursor: pointer;
+  }
 
-    #prov-topmenu-label{
-        margin-left:2vw;
-    }
+  #prov-topmenu-label {
+    margin-left: 2vw;
+  }
 
-    #prov-nav-div{
-        background-color: #97C3E7;
-        display:flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        height: 7vh;
-        width:100%;
-    }
+  #prov-nav-div {
+    background-color: #97c3e7;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 7vh;
+    width: 100%;
+  }
 
-    #prov-profile-div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 50vh;
-        width:100%;
-        background-color: white;
-        color:black;
-        font-size: 4vw;
-    }
-    /* 6693B5 */
-    #prov-profile-picture{
-        background: url('../../presets/images/profile\ image.png') no-repeat;
-        background-position: center;
-        background-size: 85%;
-        width:50%;
-        height:50%;
-        margin-bottom: 2vh;
-    }
+  #prov-profile-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 4vw;
+  }
+  /* 6693B5 */
+  #prov-profile-picture {
+    background: url("../../presets/images/profile\ image.png") no-repeat;
+    background-position: center;
+    background-size: 85%;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 2vh;
+  }
 
-    #prov-bottom-div{
-        
-        display:flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        height: 45vh;
-        width:100%;
-        background-color :#6693B5;
-        border-radius: 10px 10px 0px 0px;
-    }
+  #prov-bottom-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45vh;
+    width: 100%;
+    background-color: #6693b5;
+    border-radius: 10px 10px 0px 0px;
+  }
 
-.prov-foodinfo-div-grouping-1{
-    display:flex;
+  .prov-foodinfo-div-grouping-1 {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width:40%;
-    height:100%;
-}
+    width: 40%;
+    height: 100%;
+  }
 
-    .prov-foodinfo-div{
-        font-size:4vw;
-        color:black;    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width:85%;
-        height: 8vh;
-        background-color: #F5F5F5;
-        margin-top:1vh;
-        border-radius: 3px;
-    }
+  .prov-foodinfo-div {
+    font-size: 4vw;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    background-color: #f5f5f5;
+    margin-top: 1vh;
+    border-radius: 3px;
+  }
 
-    .prov-isbusy-icon{
-        
-        background: url('../../presets/icons/colaboracao.png') no-repeat;
-        background-position: center;
-        background-size: 100%;
-        height: 5vh;
-        width:5vh;
-    }
+  .prov-isbusy-icon {
+    background: url("../../presets/icons/colaboracao.png") no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 5vh;
+    width: 5vh;
+  }
 
-    .prov-info-icon{
-        margin-right: 3vw;
-        background: url('../../presets/icons/info.png') no-repeat;
-        background-position: center;
-        background-size: 70%;
-        height: 5vh;
-        width:5vh;
-    }
+  .prov-info-icon {
+    margin-right: 3vw;
+    background: url("../../presets/icons/info.png") no-repeat;
+    background-position: center;
+    background-size: 70%;
+    height: 5vh;
+    width: 5vh;
+  }
 
-    #prov-bottom-div-title{
-        font-size: 4vw;
-        margin-top:3vh;
-        margin-bottom:3vh;
-    }
+  #prov-bottom-div-title {
+    font-size: 4vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
 }

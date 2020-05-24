@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 /* import { useHistory } from "react-router-dom"; */
 import "./Provider.css";
+import Marmitas from "../../components/static/marmitas";
 
 export default function Provider() {
+  const [showRefeicao, setShowRefeicao] = useState(false);
+
   return (
     <div id="prov-main-div">
       <div id="prov-nav-div">
@@ -17,12 +20,15 @@ export default function Provider() {
         <span id="prov-bottom-div-title">
           Merendas prontas pra entregar (2)
         </span>
-        <div className="prov-foodinfo-div">
+        <div
+          className="prov-foodinfo-div"
+          onClick={() => setShowRefeicao(!showRefeicao)}
+        >
           <div className="prov-foodinfo-div-grouping-1">
             <span className="prov-isbusy-icon"></span>
             <span>Merenda 1</span>
           </div>
-          <span className="prov-info-icon"></span>
+          {showRefeicao && <Marmitas />}
         </div>
 
         <div></div>
