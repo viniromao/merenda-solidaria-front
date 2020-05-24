@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import "./Landing.css";
-import * as actionTypes from "../../redux/actions/actions";
 import { handleRegister } from "../../services/auth";
 
 export default function Landing() {
@@ -19,7 +18,7 @@ export default function Landing() {
 
   useEffect(() => {
     console.log(Object.values(loginData)[0].access_token);
-    Object.values(loginData)[0].access_token && history.push("/ImagesInput");
+    Object.values(loginData)[0].access_token && history.push("/provider");
   }, [history, loginData]);
 
   return (
@@ -56,11 +55,7 @@ export default function Landing() {
         </div>
         <div
           onClick={() => {
-            dispatch({
-              type: actionTypes.REGISTER_REQUEST,
-              payload: { quero_doar: false },
-            });
-            history.push("/login");
+            history.push("/imagesinput");
           }}
           className="lan-direction-button"
           id="lan-receiver-button"
