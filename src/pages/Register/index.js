@@ -5,13 +5,13 @@ import "./Register.css";
 import * as actionTypes from "../../redux/actions/actions";
 
 export default function Register() {
-  const [email, setEmail] = useState("richard@gmail.com");
-  const [first_name, setFirst_name] = useState("Richard");
-  const [last_name, setLast_name] = useState("Richardson");
-  const [tel, setTel] = useState("21123456789");
-  const [password, setPassword] = useState("abelha123");
-  const [re_password, setRepassword] = useState("abelha123");
-  const [endereco, setEndereco] = useState("Rua das Ruas");
+  const [email, setEmail] = useState();
+  const [first_name, setFirst_name] = useState();
+  const [last_name, setLast_name] = useState();
+  const [tel, setTel] = useState();
+  const [password, setPassword] = useState();
+  const [re_password, setRepassword] = useState();
+  const [endereco, setEndereco] = useState();
 
   const dispatch = useDispatch();
   const history = useHistory();
