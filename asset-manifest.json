@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8ffde42.chunk.css",
-    "main.js": "/static/js/main.ad90daf3.chunk.js",
-    "main.js.map": "/static/js/main.ad90daf3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b9e95170.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b9e95170.js.map",
-    "static/js/2.59a64111.chunk.js": "/static/js/2.59a64111.chunk.js",
-    "static/js/2.59a64111.chunk.js.map": "/static/js/2.59a64111.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e43b3f701bb01e95d9127eae9d8b86aa.js": "/precache-manifest.e43b3f701bb01e95d9127eae9d8b86aa.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f8ffde42.chunk.css.map": "/static/css/main.f8ffde42.chunk.css.map",
-    "static/js/2.59a64111.chunk.js.LICENSE.txt": "/static/js/2.59a64111.chunk.js.LICENSE.txt",
-    "static/media/Initial.css": "/static/media/proximo.e3b0a3b8.svg",
-    "static/media/Receiver.css": "/static/media/comer.c6c3a4ce.svg",
-    "static/media/Provider.css": "/static/media/profile image.47bd248c.png"
+    "main.css": "/merenda-solidaria-front/static/css/main.25cc87a4.chunk.css",
+    "main.js": "/merenda-solidaria-front/static/js/main.d70d4c4c.chunk.js",
+    "main.js.map": "/merenda-solidaria-front/static/js/main.d70d4c4c.chunk.js.map",
+    "runtime-main.js": "/merenda-solidaria-front/static/js/runtime-main.e75b617f.js",
+    "runtime-main.js.map": "/merenda-solidaria-front/static/js/runtime-main.e75b617f.js.map",
+    "static/js/2.59a64111.chunk.js": "/merenda-solidaria-front/static/js/2.59a64111.chunk.js",
+    "static/js/2.59a64111.chunk.js.map": "/merenda-solidaria-front/static/js/2.59a64111.chunk.js.map",
+    "index.html": "/merenda-solidaria-front/index.html",
+    "precache-manifest.1f422804a35f503914d275a0b44f796c.js": "/merenda-solidaria-front/precache-manifest.1f422804a35f503914d275a0b44f796c.js",
+    "service-worker.js": "/merenda-solidaria-front/service-worker.js",
+    "static/css/main.25cc87a4.chunk.css.map": "/merenda-solidaria-front/static/css/main.25cc87a4.chunk.css.map",
+    "static/js/2.59a64111.chunk.js.LICENSE.txt": "/merenda-solidaria-front/static/js/2.59a64111.chunk.js.LICENSE.txt",
+    "static/media/Initial.css": "/merenda-solidaria-front/static/media/proximo.e3b0a3b8.svg",
+    "static/media/Receiver.css": "/merenda-solidaria-front/static/media/comer.c6c3a4ce.svg",
+    "static/media/Provider.css": "/merenda-solidaria-front/static/media/profile image.47bd248c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9e95170.js",
+    "static/js/runtime-main.e75b617f.js",
     "static/js/2.59a64111.chunk.js",
-    "static/css/main.f8ffde42.chunk.css",
-    "static/js/main.ad90daf3.chunk.js"
+    "static/css/main.25cc87a4.chunk.css",
+    "static/js/main.d70d4c4c.chunk.js"
   ]
 }
