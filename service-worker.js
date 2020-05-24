@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/merenda-solidaria-front/precache-manifest.5f3261c7b4c97e22829289f121f4bbc5.js"
+  "/merenda-solidaria-front/precache-manifest.549ead6fe862781474e4a318fdf82128.js"
 );
 
 self.addEventListener('message', (event) => {

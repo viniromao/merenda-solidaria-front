@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e180479b7fb5b04b049675ff9337d6df",
+    "revision": "707cdbea88365bc674cdff8bde360f9d",
     "url": "/merenda-solidaria-front/index.html"
   },
   {
-    "revision": "9ea91fae0ea2fff07f29",
+    "revision": "f927ce94dab55a5cb608",
     "url": "/merenda-solidaria-front/static/css/main.9b39ef1e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/merenda-solidaria-front/static/js/2.8c596d5e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ea91fae0ea2fff07f29",
-    "url": "/merenda-solidaria-front/static/js/main.9d3668e5.chunk.js"
+    "revision": "f927ce94dab55a5cb608",
+    "url": "/merenda-solidaria-front/static/js/main.16934c12.chunk.js"
   },
   {
     "revision": "92d3a26f4fdd1b52cce8",
