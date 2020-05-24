@@ -2,7 +2,7 @@
   "name": "merenda-solidaria-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://viniromao.github.io/merenda-solidaria-front/",
+  "homepage": "http://viniromao.github.io/merenda-solidaria-front",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
