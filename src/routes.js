@@ -11,7 +11,7 @@ import FoodInfo from "./pages/FoodInfo";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const Routes = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Switch>
       <Route exact path="/" component={() => <Initial />} />
       <Route path="/foodinfo" component={() => <FoodInfo />} />
